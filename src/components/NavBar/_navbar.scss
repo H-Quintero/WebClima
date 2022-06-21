@@ -1,0 +1,19 @@
+.nav {
+    background-color: $secondColor;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+
+    &__links {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+
+        li {
+            color: $fontColor;
+            font-size: 2rem;
+            list-style: none;
+            text-decoration: none;
+        }
+    }
+}

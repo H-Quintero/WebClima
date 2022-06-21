@@ -1,0 +1,32 @@
+@import './variables';
+
+@import '../components/NavBar/navbar';
+@import '../pages/Parking/parking';
+@import '../pages/Clima/clima';
+@import '../pages/Provincia/provincia';
+@import '../components/Temperatura/temperatura';
+
+html {
+  font-size: 65.2%;
+  box-sizing: border-box;
+  font-family: $font;
+  background-color: $firstColor;
+  background-image: url('../assets/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: $secondColor;
+}
+

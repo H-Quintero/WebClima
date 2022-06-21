@@ -1,0 +1,37 @@
+.tempContainer { 
+  // justify-content: space-between;
+  text-align: center;
+  border: .1rem solid black;
+  width: 15rem;
+  margin: 2.5rem auto;
+  // margin-top: 2.5rem;
+  padding: .5rem;
+
+  &__title {
+    margin-bottom: .8rem;
+  }
+}
+.temp {
+  display: flex;
+
+  &__text {
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .tempContainer {
+    width: 35rem;
+
+    &__title {
+      font-size: 3rem;
+    }
+  }
+  
+  .temp {
+
+    &__text {
+      font-size: 2.2rem;
+    }
+  }
+}
