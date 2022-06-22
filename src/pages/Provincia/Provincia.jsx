@@ -9,6 +9,7 @@ export default function Provincia() {
         tomorrow: "",
         ciudades: [],
     });
+    
 
     const { CodProv } = useParams();
     // console.log(CodProv);
@@ -38,7 +39,7 @@ export default function Provincia() {
             <h4 className="container__title container__title--mg-top">Temperatutas de hoy</h4>
             <div className="cityContainer">
                 {ciudades.map((ciudad) => {
-                    return <Temperatura key={ciudad.id} ciudad={ciudad} />;
+                    return <Temperatura key={ciudad.id} ciudad={ciudad}/>;
                 })}
             </div>
         </div>
