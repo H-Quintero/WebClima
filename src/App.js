@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Clima from "./pages/Clima/Clima";
 import Parking from "./pages/Parking/Parking";
 import Provincia from "./pages/Provincia/Provincia";
-import Municipio from "./pages/Municipio/Municipio";
+// import Municipio from "./pages/Municipio/Municipio";
 
 
 
@@ -22,7 +22,7 @@ function App() {
         <Route path="/" element={<Clima />} />
         <Route path="parking" element={<Parking />} />
         <Route path="provincia/:CodProv" element={<Provincia />}/>
-        <Route path="municipio/:id" element={<Municipio />}/>
+        {/* <Route path="municipio/:id" element={<Municipio />}/> */}
       </Routes>
 
     </Router>
